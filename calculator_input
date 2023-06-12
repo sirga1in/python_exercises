@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+string = input()
+if b==0 and string == '/':
+    print('На ноль делить нельзя!')
+else:
+    if string == '+':
+        print(a+b)
+    elif string == '-':
+        print(a-b)
+    elif string == '*':
+        print(a*b)    
+    elif string == '/':
+        print(a/b)
+    else:
+        print('Неверная операция')
