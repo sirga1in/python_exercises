@@ -1,0 +1,26 @@
+color = int(input())
+if 0 <= color <= 36:
+    if color == 0:
+        print('зеленый')
+    elif 1 <= color <= 10:
+        if color %2 == 0:
+            print('черный')
+        else:
+            print('красный')
+    elif 11 <= color <= 18:
+        if color %2 != 0:
+            print('черный')
+        else:
+            print('красный')
+    elif 19 <= color <= 28:
+        if color %2 == 0:
+            print('черный')
+        else:
+            print('красный')
+    elif 29 <= color <= 36:
+        if color %2 != 0:
+            print('черный')
+        else:
+            print('красный')
+else:
+    print('ошибка ввода')
